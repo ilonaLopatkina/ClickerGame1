@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- SplashActivity как главный экран -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/FullScreenTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- SettingsActivity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".RulesActivity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <!-- PastureActivity0 -->
+        <activity
+            android:name=".PastureActivity0"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".PastureActivity2500"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".PastureActivity5000"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".ImprovementsActivity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".GameSettingsActivity"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".AchievementActivity500"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <activity
+            android:name=".AchievementActivity2500"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+        <!-- Другие активности -->
+        <activity
+            android:name=".AchievementActivity3500"
+            android:exported="false"
+            android:theme="@style/FullScreenTheme" />
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>
